@@ -1,0 +1,8 @@
+{
+  "useSmtp": true,
+  "host": "smtp.office365.com",              
+  "port": 587,													 
+  "username": "mmchunu@seda.org.za",					 
+  "password": "Banks$4477",						 
+  "recipientEmail":  "mmchunu@sedfa.org.za"		 
+}
