@@ -1488,6 +1488,53 @@ html .wrapper {
 	height: auto;
 }
 
+/* Video sound bite card -------------------------------------------------- */
+/* The thumbnail image becomes a full-bleed background and the gold panel is
+   centred on top of it, so the card grows with its content instead of
+   clipping it. */
+.video-thumbnail {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px 18px;
+	cursor: default;
+}
+
+.video-thumbnail > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay-text-video {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 24px 20px;
+	background-color: rgba(178, 149, 48, 0.92);
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 550;
+}
+
+@media (min-width: 768px) {
+	.video-thumbnail {
+		padding: 30px 24px;
+	}
+	.overlay-text-video {
+		padding: 30px 26px;
+	}
+}
+
+
 .overlay-text-gold 
 {
   	position: absolute;
@@ -1503,6 +1550,7 @@ html .wrapper {
 	height: auto;
 	
 }
+
 
 .overlay-text-green 
 {
@@ -1606,6 +1654,50 @@ html .wrapper {
 	padding-bottom: 2%;
 	font-size: 16px;
 	font-weight: 650;
+}
+
+.heading-video {
+	margin: 0 0 16px;
+	font-size: 17px;
+	font-weight: 650;
+	line-height: 1.3;
+}
+
+.heading-video-subtitle {
+	margin: 14px 0 0;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	opacity: 0.9;
+}
+
+.video-media {
+	width: 100%;
+	max-width: 420px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.video-media video {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	object-fit: contain;
+	background-color: #000;
+	border-radius: 6px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+	.heading-video {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.heading-video-subtitle {
+		margin-top: 18px;
+	}
 }
 
 .date-radiosoundbite-component
