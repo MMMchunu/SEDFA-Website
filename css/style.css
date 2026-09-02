@@ -471,6 +471,22 @@ h6,
 	color: #000000
 }
 
+.heading-decorated-10 {
+	
+	position: relative;
+	display: block;
+
+	margin-top: 15px;
+	background: #f2f1e6;
+	will-change: transform, opacity;
+	text-transform:none;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-bottom: 4%;
+	color: #000000
+}
+
 .heading-decorated-CTA {
 	content: '';
 	position: relative;
