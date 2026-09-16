@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-sedfa-gold: #B29530;
+  --color-sedfa-black: #000000;
+  
+}

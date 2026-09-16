@@ -10519,6 +10519,15 @@ h4 + .owl-carousel {
 	background: transparent;
 }
 
+.rd-navbar-fullwidth .rd-navbar-dropdown > li.focus > a,
+.rd-navbar-fullwidth .rd-navbar-dropdown > li.opened > a,
+.rd-navbar-static .rd-navbar-dropdown > li.focus > a,
+.rd-navbar-static .rd-navbar-dropdown > li.opened > a,
+.rd-navbar-fullwidth .rd-navbar-dropdown > li > a:hover ~ .rd-navbar-submenu-toggle,
+.rd-navbar-static .rd-navbar-dropdown > li > a:hover ~ .rd-navbar-submenu-toggle {
+      color: #B29530;
+}
+
 .rd-navbar-fullwidth .rd-navbar-dropdown > li.focus > a ~ .rd-navbar-submenu-toggle,
 .rd-navbar-fullwidth .rd-navbar-dropdown > li.opened > a ~ .rd-navbar-submenu-toggle,
 .rd-navbar-static .rd-navbar-dropdown > li.focus > a ~ .rd-navbar-submenu-toggle,
