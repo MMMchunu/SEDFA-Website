@@ -2359,11 +2359,11 @@ html:has(#TikaTape2-dialog[open])
 	overflow: hidden;
 }
 
-#TikaTape2-dialog .TikaTape-content {
+#TikaTape2-dialog .TikaTape2-content {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	text-align: left;
+	text-align: center;
 }
 
 /* Read More button */
@@ -2410,7 +2410,7 @@ html:has(#TikaTape2-dialog[open])
 .TikaTape2-button  {
 	
 	border: none;
-	background-color:#fff;
+	background-color:#b29530;
 	color: #000;
 	border-radius: 50px;
 	display: inline-block;
@@ -2428,32 +2428,35 @@ html:has(#TikaTape2-dialog[open])
 
 .TikaTape2-button2  {
 	
-	background-color:#fff;
-	color: #000;
+	background-color:#b29530;
+	color: #fff;
 	display: inline-block;
 	width: auto;
 	max-width: 100%;
 	border: none;
-	border-radius: 0;
-	padding: 12px 25px;
+	border-radius: 16px;
+	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 17px;
-	text-transform:uppercase;
+	text-transform:none;
+	
 }
 
 .TikaTape2-button2:hover {
 	
 	border: none;
-	background-color:#B29530;
+	background-color:#000;
 	color: #fff;
 
 }
 
 .TikaTape2-content {
-	color: #FFF;
+	color: #000;
 	text-transform: none;
 	font-size: 20px;
-	font-weight: 800;
+	font-weight: 500;
+	text-align:justify;
+	
 }
 
 .TikaTape2-par{

@@ -28,9 +28,9 @@
     
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fira+Sans:300,600,800,800i%7COpen+Sans:300,400,400i">
-    <!--<link rel="stylesheet" href="./css/bootstrap.css">-->
-    <link rel="stylesheet" href="./css/style.css">
-    -<link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link href="src/output.css" rel="stylesheet">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
@@ -254,209 +254,223 @@
       </section>
 
       <!--Page Title-->
-
-      <div class="text-xl font-extrabold pt-10 pl-15">
+      <div class="text-2xl font-extrabold pt-10 mx-5 md:mx-10 lg:mx-25">
         Complaints
       </div>
 
-      <!--Complaints-->
+      <!--Overview-->
+      <div class="flex flex-col">
+        <div class="mx-5 md:mx-10 lg:mx-25 pt-10 text-xl font-extrabold">Overview</div>
+        <div class="mx-5 md:mx-10 lg:mx-25 pt-3 text-base/7">At SEDFA, we are committed to enhancing our reputation and ensuring customer satisfaction through effective management of complaints. Our goal is to address every concern promptly and thoroughly, providing clear and timely communication throughout the process.</div>
+      </div>
       
-      <div class="grid grid-cols-2 justify-items-center gap-2 pt-10 mr-20 pb-10 ml-20">
-
-        <div>
-            <div class="p-5 flex flex-col max-w-2lg">
-              <div class="rounded-2xl bg-white p-10 text-sm/7 text-gray-700 shadow-2xl hover:shadow-sedfa-gold">
-                <!--<img src="/img/logo.svg" class="mb-11.5 h-6 alt="Tailwind Play" />-->
-
-                <div class="flex flex-col gap-5 mb-6 items-center">
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16""/>
-                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
-                    </svg>
-                  </div>
-                  <div class="text-2xl font-bold text-center text-black">
-                      Handling and Managing Complaints and Appeals
-                  </div>
-                </div>
-                <!--<hr class="my-6 w-full border-(--pattern-fg)" />-->
-                <div class="space-y-6 ">
-                  <p class="text-base/7">
-                    When you submit a complaint, it triggers a structured process designed to ensure proper handling and resolution. This process includes:
-                  </p>
-                  <ul class="space-y-3 mb-5">
-                    <li class="flex">
-                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-                      </svg>
-                      <p class="ml-3 text-base/7">
-                        <b>Registering:</b> All complaints are logged in our system within predetermined timelines.
-                        
-                      </p>
-                    </li>
-                    <li class="flex">
-                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-                      </svg>
-                      <p class="ml-3 text-base/7">
-                        <b>Acknowledgement:</b> You will receive formal acknowledgment of your complaint within a set timeframe.
-                        
-                      </p>
-                    </li>
-                  <li class="flex">
-                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-                      </svg>
-                      <p class="ml-3 text-base/7">
-                        <b>Response:</b> We strive to respond to all complaints and appeals within the designated timelines.
-                        
-                      </p>
-                    </li>
-                  
-                  </ul>
-                  
-                </div>
-              <!--<hr class="my-6 w-full border-(--pattern-fg)" />-->
+      <!--Intro CTA-->
+      <div class="mx-5 md:mx-10 lg:mx-25 mt-10 flex flex-col md:flex-row items-stretch md:items-center gap-6 rounded-2xl bg-white p-6 md:p-10 shadow-2xl">
+        
+        <!--Text-->
+        <div class="w-full basis-2/3">
+          <div class="flex flex-col gap-4">
+            <div class="flex flex-row items-center gap-3 md:gap-5">
+              <div> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle size-7 md:size-9 shrink-0" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                  <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                </svg>
+              </div>
+              <div>
+                <div class="text-xl md:text-2xl font-bold">How to Lodge Complaints & Appeals</div>
               </div>
             </div>
-        </div>
-
-        <div>
-             <div class="p-5 flex flex-col max-w-2lg">
-              <div class="rounded-2xl bg-white p-10 text-sm/7 text-gray-700 shadow-2xl">
-                <!--<img src="/img/logo.svg" class="mb-11.5 h-6 alt="Tailwind Play" />-->
-
-                <div class="flex flex-col gap-5 mb-6 items-center">
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
-                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16""/>
-                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
-                    </svg>
-                  </div>
-                  <div class="text-2xl font-bold text-center text-black">
-                      Handling and Managing Complaints and Appeals
-                  </div>
-                </div>
-                <!--<hr class="my-6 w-full border-(--pattern-fg)" />-->
-                <div class="space-y-6 ">
-                  <p class="text-base/7">
-                    When you submit a complaint, it triggers a structured process designed to ensure proper handling and resolution. This process includes:
-                  </p>
-                  <ul class="space-y-3 mb-5">
-                    <li class="flex">
-                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-                      </svg>
-                      <p class="ml-3 text-base/7">
-                        <b>Registering:</b> All complaints are logged in our system within predetermined timelines.
-                        
-                      </p>
-                    </li>
-                    <li class="flex">
-                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-                      </svg>
-                      <p class="ml-3 text-base/7">
-                        <b>Acknowledgement:</b> You will receive formal acknowledgment of your complaint within a set timeframe.
-                        
-                      </p>
-                    </li>
-                  <li class="flex">
-                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-                      </svg>
-                      <p class="ml-3 text-base/7">
-                        <b>Response:</b> We strive to respond to all complaints and appeals within the designated timelines.
-                        
-                      </p>
-                    </li>
-                  
-                  </ul>
-                  
-                </div>
-              <!--<hr class="my-6 w-full border-(--pattern-fg)" />-->
-              </div>
+            
+            <div>
+              <p class="mt-0! text-base/7">We understand that issues can arise through various channels, and we want to make it easy for you to reach us. Complaints must be lodged through a dedicated mailbox - 
+              <a href="mailto:complaints@sedfa.org.za" class="break-all underline decoration-amber-400 underline-offset-3 hover:decoration-2">complaints@sedfa.org.za</a></p>
             </div>
+          </div>
         </div>
 
+        <!--Button-->
+        <div class="w-full md:basis-1/3 flex justify-center">
+          <div class="w-full flex justify-center rounded-2xl bg-sedfa-gold p-6 md:p-10 shadow-2xl">
+            <a href="mailto:complaints@sedfa.org.za" class="flex! flex-row items-center justify-center gap-2 rounded-4xl bg-black px-6 py-3 font-bold text-white whitespace-nowrap shadow-2xl hover:bg-white! hover:text-black!">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send size-4" viewBox="0 0 16 16">
+                  <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
+                </svg>
+              </div>
+              <div>Submit Complaint</div>
+            </a>
+          </div>
+        </div>
       </div>
+      <!--End Intro CTA-->
 
+      <!--2 Coloum component-->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 pt-10 mx-5 md:mx-25">
+            
+        <div class="h-full">
+          <div class="rounded-2xl bg-white p-6 md:p-10 text-sm/7 shadow-2xl hover:shadow-[#b29530] h-full flex flex-col">
 
-      <div class="p-5 flex flex-col max-w-lg">
-      <div class="rounded-2xl bg-white p-10 text-sm/7 text-gray-700 shadow-2xl">
-        <!--<img src="/img/logo.svg" class="mb-11.5 h-6 alt="Tailwind Play" />-->
-
-        <div class="flex flex-col gap-5 mb-6 items-center">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16""/>
-            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
-            </svg>
-          </div>
-          <div class="text-2xl font-bold text-center text-black">
-              Handling and Managing Complaints and Appeals
+            <div class="mb-6 flex flex-col items-center gap-5">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle size-7 md:size-9 shrink-0" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                  <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                </svg>
+              </div>
+              <div class="text-xl text-center md:text-2xl font-bold">Handling and Managing Complaints and Appeals</div>
+            </div>
+                  
+            <div class="space-y-6">
+              <p class="text-base/7">When you submit a complaint, it triggers a structured process designed to ensure proper handling and resolution. This process includes:</p>
+              <ul class="mb-5 space-y-3">
+                  <li class="flex!">
+                    <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
+                      <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
+                      <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
+                      <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
+                    </svg>
+                    <p class="ml-3! mt-0! text-base/7!"><b>Referral and Action:</b> Each complaint is referred to the appropriate department for immediate action.</p>
+                  </li>
+                  <li class="flex!">
+                    <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
+                      <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
+                      <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
+                      <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
+                    </svg>
+                    <p class="ml-3! mt-0! text-base/7!"><b>Follow-Up and Escalation:</b> We continuously monitor the progress of your case, escalating it if necessary to ensure timely resolution.</p>
+                  </li>
+                  <li class="flex!">
+                    <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
+                      <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
+                      <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
+                      <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
+                    </svg>
+                    <p class="ml-3! mt-0! text-base/7!"><b>Resolution:</b> Our primary focus is on achieving a satisfactory outcome for all parties involved.</p>
+                  </li>
+              </ul>
+              
+            </div>
           </div>
         </div>
-        <!--<hr class="my-6 w-full border-(--pattern-fg)" />-->
-        <div class="space-y-6 ">
-          <p class="text-base/7">
-            When you submit a complaint, it triggers a structured process designed to ensure proper handling and resolution. This process includes:
-          </p>
-          <ul class="space-y-3 mb-5">
-            <li class="flex">
-              <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-              </svg>
-              <p class="ml-3 text-base/7">
-                <b>Registering:</b> All complaints are logged in our system within predetermined timelines.
+        
+        <div class="h-full">
+          <div class="rounded-2xl bg-white p-6 md:p-10 text-sm/7 shadow-2xl hover:shadow-[#b29530] h-full flex flex-col">
+
+                <div class="mb-6 flex flex-col items-center gap-5">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                    </svg>
+                  </div>
+                  <div class="text-xl text-center md:text-2xl font-bold">Timeliness and Communication</div>
+                </div>
+              
+                <div class="space-y-6">
+                  <p class="text-base/7">To maintain transparency and efficiency, we adhere to the following timelines:</p>
+                  <ul class="mb-5 space-y-3">
+                    <li class="flex!">
+                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
+                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
+                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
+                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
+                      </svg>
+                      <p class="ml-3! mt-0! text-base/7!"><b>Registering:</b> All complaints are logged in our system within predetermined timelines.</p>
+                    </li>
+                    <li class="flex!">
+                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
+                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
+                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
+                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
+                      </svg>
+                      <p class="ml-3! mt-0! text-base/7!"><b>Acknowledgement:</b> You will receive formal acknowledgment of your complaint within a set timeframe.</p>
+                    </li>
+                    <li class="flex!">
+                      <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
+                        <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
+                        <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
+                        <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
+                      </svg>
+                      <p class="ml-3! mt-0! text-base/7!"><b>Response:</b> We strive to respond to all complaints and appeals within the designated timelines.</p>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        
+      </div>
+      <!--End 2 Coloum component-->
+
+      <!--3 Small Coloum component-->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pt-10 mb-20 mx-5 md:mx-25">
+         
+
+            <div class="h-full">
+              <div class="rounded-2xl bg-white p-6 md:p-10 text-sm/7 shadow-2xl hover:shadow-[#b29530] h-full flex flex-col">
+
+                <div class="mb-6 flex flex-col items-center gap-5">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                    </svg>
+                  </div>
+                  <div class="text-xl text-center md:text-2xl font-bold">Measuring Success</div>
+                </div>
                 
-              </p>
-            </li>
-            <li class="flex">
-              <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-              </svg>
-              <p class="ml-3 text-base/7">
-                <b>Acknowledgement:</b> You will receive formal acknowledgment of your complaint within a set timeframe.
+                <div class="space-y-6 mb-5">
+                  <p class="text-base/7">While we aim to address issues promptly, our primary measure of success is the resolution of the complaint, recognising that some cases may be more complex than others.</p>
+                </div>
                 
-              </p>
-            </li>
-           <li class="flex">
-              <svg class="h-lh w-5.5 shrink-0" viewBox="0 0 22 22" fill="none" stroke-linecap="square">
-                 <circle cx="11" cy="11" r="11" class="fill-amber-200/25" />
-                <circle cx="11" cy="11" r="10.5" class="stroke-amber-800/25" />
-                <path d="M8 11.5L10.5 14L14 8" class="stroke-amber-800" />
-              </svg>
-              <p class="ml-3 text-base/7">
-                <b>Response:</b> We strive to respond to all complaints and appeals within the designated timelines.
+              </div>
+            </div>
+         
+            <div class="h-full">
+              <div class="rounded-2xl bg-white p-6 md:p-10 text-sm/7 shadow-2xl hover:shadow-[#b29530] h-full flex flex-col">
+
+                <div class="mb-6 flex flex-col items-center gap-5">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                    </svg>
+                  </div>
+                  <div class="text-xl text-center md:text-2xl font-bold">Keeping You Informed</div>
+                </div>
                 
-              </p>
-            </li>
-           
-          </ul>
+                <div class="space-y-6 mb-5">
+                  <p class="text-base/7">We believe in keeping you updated throughout the process. Regular updates on the progress of your complaint will be provided.</p>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="h-full">
+              <div class="rounded-2xl bg-white p-6 md:p-10 text-sm/7 shadow-2xl hover:shadow-[#b29530] h-full flex flex-col">
+
+                <div class="mb-6 flex flex-col items-center gap-5">
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                    </svg>
+                  </div>
+                  <div class="text-xl text-center md:text-2xl font-bold">Written Responses</div>
+                </div>
+                
+                <div class="space-y-6 mb-5">
+                  <p class="text-base/7">All our responses will be documented digitally, whether via email or letter, to ensure clarity and record-keeping.</p>
+                </div>
+                
+              </div>
+            </div>
+            
           
-        </div>
-       <!--<hr class="my-6 w-full border-(--pattern-fg)" />-->
       </div>
-    </div>
+      <!--End 3 Small Coloum component-->
 
-      <!--End Complaints-->
+    </div>
 
 
       <!-- Page Footer--><!--<a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_big_02.jpg" alt="" height="0"/></a>-->
