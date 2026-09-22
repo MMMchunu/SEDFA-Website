@@ -2146,8 +2146,8 @@ html:has(#TikaTape-dialog[open])
 .TikaTape-button  {
 	
 	border: none;
-	background-color:#fff;
-	color: #000;
+	background-color:#B29530;
+	color: #fff;
 	border-radius: 50px;
 	display: inline-block;
 	vertical-align: middle;
@@ -2155,7 +2155,7 @@ html:has(#TikaTape-dialog[open])
 
 .TikaTape-button:hover {
 	
-	background-color:#B29530;
+	background-color:#000;
 	color: #fff;
 	border-radius: 50px;
 	display: inline-block;
@@ -2313,9 +2313,23 @@ html:has(#TikaTape2-dialog[open])
 	overflow: hidden;
 	box-sizing: border-box;
 	width: 100%;
-	background-color: #0F8140;
-	
+	background-color: #fff;
+	/* Stretch the ticker artwork to fill the bar exactly */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	/* Keep content off the logo (left ~17% of the image) and film-strip edges */
+	padding: 12px 1.5% 12px 17.5%;
+}
 
+/* On phones the logo area gets too narrow: show only the film strip */
+@media (max-width: 767.98px) {
+	#TikaTape2-dialog {
+		background-size: cover;
+		background-position: right center;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
 }
 
 #TikaTape2-dialog .row {
@@ -2353,7 +2367,7 @@ html:has(#TikaTape2-dialog[open])
 }
 
 /* Text: truncate with ellipsis instead of wrapping or overflowing */
-#TikaTape2-dialog .col-sm-9 {
+#TikaTape2-dialog .row > .col-sm-9 {
 	flex: 1 1 auto;
 	min-width: 0;
 	overflow: hidden;
@@ -2364,6 +2378,7 @@ html:has(#TikaTape2-dialog[open])
 	overflow: hidden;
 	text-overflow: ellipsis;
 	text-align: center;
+	font-size: medium;
 }
 
 /* Read More button */
@@ -2407,24 +2422,6 @@ html:has(#TikaTape2-dialog[open])
 	}
 }
 
-.TikaTape2-button  {
-	
-	border: none;
-	background-color:#b29530;
-	color: #000;
-	border-radius: 50px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.TikaTape2-button:hover {
-	
-	background-color:#B29530;
-	color: #fff;
-	border-radius: 50px;
-	display: inline-block;
-
-}
 
 .TikaTape2-button2  {
 	
@@ -2435,8 +2432,8 @@ html:has(#TikaTape2-dialog[open])
 	max-width: 100%;
 	border: none;
 	border-radius: 16px;
-	padding: 6px 12px;
-	font-size: 14px;
+	padding: 4px 10px;
+	font-size: 13px;
 	line-height: 17px;
 	text-transform:none;
 	
@@ -2450,13 +2447,37 @@ html:has(#TikaTape2-dialog[open])
 
 }
 
-.TikaTape2-content {
+.TikaTape22-button22  {
+	
+	background-color:#000;
+	color: #fff;
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+	border: none;
+	border-radius: 16px;
+	padding: 4px 12px;
+	font-size: 13px;
+	line-height: 17px;
+	text-transform:none;
+	
+}
+
+.TikaTape22-button22:hover {
+	
+	border: none;
+	background-color:#b29530;
+	color: #fff;
+
+}
+
+.TikaTape2-content 
+{
 	color: #000;
 	text-transform: none;
 	font-size: 20px;
 	font-weight: 500;
-	text-align:justify;
-	
+	text-align:justify
 }
 
 .TikaTape2-par{
@@ -2481,7 +2502,8 @@ html:has(#TikaTape2-dialog[open])
 	
 	.TikaTape2-button2  
 	{
-		padding: 12px 20px;
+		/*padding: 12px 20px;*/
+		padding: 6px 12px;
 		font-size: 12px;
 		line-height: 15px;
 	}
@@ -2497,9 +2519,10 @@ html:has(#TikaTape2-dialog[open])
 	
 	.TikaTape2-button2  
 	{
-		padding: 12px 18px;
+		/*padding: 12px 18px;*/
 		font-size: 10px;
 		line-height: 13px;
+		padding: 6px 12px;
 	}
 }
 
@@ -2512,7 +2535,8 @@ html:has(#TikaTape2-dialog[open])
 	
 	.TikaTape2-button2  
 	{
-		padding: 8px 14px;
+		/*padding: 8px 14px;*/
+		padding: 6px 12px;
 		font-size: 8px;
 		line-height: 10px;
 	}
