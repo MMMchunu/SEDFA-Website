@@ -119,11 +119,17 @@ html p a:hover {
 	text-decoration: none;
 }
 
+
+
 body {
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
-	font-size: 14px;
-	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+  	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+
 	line-height: 1.625;
 	font-weight: 400;
 	color: #000;
@@ -180,10 +186,10 @@ hr-SoundBites {
 h1, h2, h3, h4, h5, h6, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 800;
 	color: #41516A;
-	text-transform: uppercase;
+	text-transform: none;
 	letter-spacing: .5px;
 }
 
@@ -588,7 +594,7 @@ code,
 .code {
 	padding: 1px 5px;
 	border-radius: 0;
-	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #fff;
 	background: #000;
 }
@@ -1035,7 +1041,7 @@ h2 .label {
 	padding: 12px 25px;
 	font-size: 14px;
 	line-height: 17px;
-	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0;
 	transition: .33s all ease;
@@ -1199,7 +1205,7 @@ span.button {
 .button-link {
 	border: 0;
 	padding: 0;
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	letter-spacing: .06em;
@@ -1263,7 +1269,7 @@ span.button {
 }
 
 .box-counter__title {
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.3;
@@ -1273,7 +1279,7 @@ span.button {
 }
 
 .box-counter__wrap > * {
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	display: inline;
 	font-size: 40px;
 	font-weight: 700;
@@ -3354,7 +3360,7 @@ textarea.form-input {
 }
 
 .list-terms dt {
-	font: 700 16px "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font: 700 16px "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.5;
 	letter-spacing: 0;
 	color: #1F2845;
@@ -3366,7 +3372,7 @@ textarea.form-input {
 }
 
 .list-terms-inline dt {
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	letter-spacing: .06em;
 	text-transform: uppercase;
@@ -4770,7 +4776,7 @@ a.thumbnail-classic-title:hover {
 }
 
 .quote-centered__text {
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: .06em;
 	text-transform: uppercase;
@@ -6873,7 +6879,7 @@ a.thumbnail-classic-title:hover {
 	font-size: 16px;
 	line-height: 50px;
 	font-weight: 300;
-	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	background-color: #f8f8f8;
 	border: 1px solid #f8f8f8;
 	color: #888;
@@ -7569,7 +7575,7 @@ section {
 	display: inline-block;
 	font-size: 400px;
 	font-weight: 800;
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: .668;
 	color: inherit;
 	opacity: .02;
@@ -13390,7 +13396,7 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .rd-search-results-live .search-quick-result {
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 30px;
@@ -13449,7 +13455,7 @@ html.boxed .rd-navbar--is-clone {
 	padding: 5px 25px;
 	border-radius: 3px;
 	border: 1px solid #fff;
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	color: white;
@@ -13529,7 +13535,7 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .rd-search-results .match {
-	font: 400 14px "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font: 400 14px "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #888;
 }
 
@@ -14396,7 +14402,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	display: block;
 	white-space: pre;
 	padding: 4px 12px;
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
 }
 
@@ -15467,7 +15473,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	justify-content: space-between;
 	margin-left: -12px;
 	margin-right: -12px;
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: .06em;
 }
@@ -15635,7 +15641,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .progress-bar-circle-title {
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.4;
@@ -16767,7 +16773,7 @@ button.swiper-pagination-bullet {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: .4;
 	letter-spacing: .06em;
 	text-shadow: 10px 20px 35px rgba(0, 0, 0, 0.8);
@@ -17075,7 +17081,7 @@ button.swiper-pagination-bullet {
 .tabs-custom .nav-custom-tabs a {
 	position: relative;
 	padding: 15px 25px;
-	font: 400 12px/20px "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font: 400 12px/20px "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	letter-spacing: .06em;
 	color: #fff;
 	text-align: center;
@@ -17584,7 +17590,7 @@ button.swiper-pagination-bullet {
 	.rdc-table_events-count:before {
 		width: 200px;
 		content: "Show event";
-		font: 300 14px/24px "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+		font: 300 14px/24px "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	}
 }
 
@@ -19416,7 +19422,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	content: "•";
 	width: 20px;
 	height: 20px;
-	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 6px;
 	line-height: 20px;
 	text-align: center;
