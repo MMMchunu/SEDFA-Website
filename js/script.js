@@ -859,6 +859,28 @@
 		}
 
 		/**
+		 * @desc Stops autoplay while a slide video is playing and resumes it when the video is paused or ends
+		 * @param {object} swiper - swiper instance
+		 */
+		function pauseAutoplayDuringVideo( swiper ) {
+			if ( !swiper.params.autoplay || !swiper.params.autoplay.enabled ) return;
+
+			// Media events don't bubble, so listen in the capture phase to catch every video (including loop clones)
+			swiper.el.addEventListener( 'play', function () {
+				swiper.autoplay.stop();
+			}, true );
+
+			swiper.el.addEventListener( 'pause', function () {
+				swiper.autoplay.start();
+			}, true );
+
+			swiper.el.addEventListener( 'ended', function () {
+				swiper.slideNext();
+				swiper.autoplay.start();
+			}, true );
+		}
+
+		/**
 		 * @desc Sets the actual previous index based on the position of the slide in the markup. Should be the most recent action.
 		 * @param {object} swiper - swiper instance
 		 */
@@ -1725,6 +1747,7 @@
 						initSwiperAnime( this );
 						initCaptionAnimate( this );
 						toggleSwiperInnerVideos( this );
+						pauseAutoplayDuringVideo( this );
 
 						// Real Previous Index must be set recent
 						this.on( 'slideChangeTransitionEnd', function () {
