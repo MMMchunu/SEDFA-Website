@@ -15783,24 +15783,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
    =========================================== */
 
 /* Container: matches 1920x1080 (16:9) source images,
-   no cropping, floor for small screens */
+   no cropping, floor for small screens.
+   Uses an explicit height (not aspect-ratio + min-height) so the
+   height: 100% on .swiper-wrapper / .swiper-slide resolves in iOS Safari */
 .swiper-container.swiper-slider {
 	width: 100%;
-	height: 0;
-	padding-bottom: 56.25%; /* fallback for browsers without aspect-ratio support */
+	height: 56.25vw; /* fallback for browsers without max() support */
+	height: max(320px, 56.25vw);
 	min-height: 320px;
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
 	background-color: #1F2845; /* fallback color while image loads */
-}
-
-@supports (aspect-ratio: 16/9) {
-	.swiper-container.swiper-slider {
-		height: auto;
-		aspect-ratio: 16 / 9;
-		padding-bottom: 0;
-	}
 }
 
 /* Slide image: cover now works cleanly since container
