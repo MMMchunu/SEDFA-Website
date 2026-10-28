@@ -783,29 +783,17 @@
     margin-top: 0px !important;
   }
   @media (hover: hover) {
-    .hover\:bg-black:hover {
-      background-color: var(--color-black);
-    }
     .hover\:bg-black\!:hover {
       background-color: var(--color-black) !important;
     }
     .hover\:bg-sedfa-gold\!:hover {
       background-color: var(--color-sedfa-gold) !important;
     }
-    .hover\:bg-white:hover {
-      background-color: var(--color-white);
-    }
     .hover\:bg-white\!:hover {
       background-color: var(--color-white) !important;
     }
-    .hover\:text-black:hover {
-      color: var(--color-black);
-    }
     .hover\:text-black\!:hover {
       color: var(--color-black) !important;
-    }
-    .hover\:text-white:hover {
-      color: var(--color-white);
     }
     .hover\:text-white\!:hover {
       color: var(--color-white) !important;
